@@ -17,11 +17,16 @@ body {
 
 h1 {
     position: absolute;
-    left: 3%;
+    left: -5%;
     top: 2%;
     font-size: 200%;
     font-weight: 800;
     padding: 1%;
+    background-color: var(--secbor);
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    width: auto;
+    text-indent: 100px;
 }
 
 h2 {
@@ -259,6 +264,9 @@ section h2 {
         position: relative;
         top: 0;
         margin-bottom: 5px;
+        width: 100%;
+        left: 0;
+        justify-content: center;
     }
 
    section h2 {
