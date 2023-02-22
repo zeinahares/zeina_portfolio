@@ -22,7 +22,7 @@ h1 {
     font-size: 200%;
     font-weight: 800;
     padding: 1%;
-    background-color: var(--secbor);
+    background-color: blueviolet;
     border-top-right-radius: 20px;
     border-bottom-right-radius: 20px;
     width: auto;
@@ -115,10 +115,11 @@ footer {
 
 section h2 {
     width: 20%;
-    font-size: 200%;
+    font-size: 400%;
     align-content: flex-start;
     justify-content: flex-end;
-    padding: 1%;
+    padding-right: 22px;
+    text-align: right;
 }
 
 #project1 {
@@ -240,6 +241,10 @@ section h2 {
         height: 15%;
         left: 58%;
     }
+
+    section h2 {
+        font-size: 300%;
+    }
  
   }
   
@@ -249,23 +254,26 @@ section h2 {
         flex-direction: column;
         justify-content: center;
         width: 100%;
-        height: 6%;
-        padding: 0;
+        height: auto;
+        padding-bottom: 15px;
     }
 
     nav a {
-        padding: 1%;
         width: 100%;
-        height: 16%;
+        height: 31px;
+        padding: 10px;
     }
 
     h1 {
         position: relative;
         top: 0;
-        margin-bottom: 5px;
         width: 100%;
         left: 0;
         justify-content: center;
+        align-content: baseline;
+        text-indent: unset;
+        border-radius: 20px;
+        box-shadow: 0px 0 20px 0px aliceblue;
     }
 
    section h2 {
@@ -274,6 +282,8 @@ section h2 {
         align-content: center;
         justify-content: center;
         padding: 1%;
+        font-size: 200%;
+        text-align: center;
     }
 
     header {
@@ -354,7 +364,15 @@ section h2 {
   
   @media screen and (max-width: 576px) {
     footer {
-        margin: 20%;
+        margin: 15%;
+    }
+
+    .work_item {
+        height: 300px;
+    }
+
+    #project1 {
+        height: 400px;
     }
 
   }
