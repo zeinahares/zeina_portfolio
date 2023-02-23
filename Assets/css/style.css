@@ -84,6 +84,7 @@ header p {
     align-content: center;
     font-weight: bold;
     font-size: 130%;
+    text-align: center;
 }
 
 
@@ -134,6 +135,7 @@ section h2 {
 #contact_me a {
     font-weight: bold;
     font-size: 130%;
+    align-content: center;
 }
 
 #contact_me .section_content {
